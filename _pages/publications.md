@@ -7,16 +7,4 @@ nav: true
 nav_order: 2
 ---
 
-<!-- _pages/publications.md -->
-
-<!-- Bibsearch Feature -->
-
-{% include bib_search.liquid %}
-
-Selected publications and preprints will appear here as they are added.
-
-<div class="publications">
-
-{% bibliography %}
-
-</div>
+Publications and preprints will be added here.

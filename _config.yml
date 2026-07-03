@@ -14,10 +14,9 @@ description: > # the ">" symbol means to ignore newlines until "footer_text:"
 footer_text: >
   Powered by <a href="https://jekyllrb.com/" target="_blank">Jekyll</a> with <a href="https://github.com/alshedivat/al-folio">al-folio</a> theme.
   Hosted by <a href="https://pages.github.com/" target="_blank">GitHub Pages</a>.
-  Photos from <a href="https://unsplash.com" target="_blank">Unsplash</a>.
 keywords: engineering physics, superconducting qubits, circuit qed, quantum information, waveguide qed, microwave engineering # add your own keywords or leave empty
 lang: en # the language of your site (for example: en, fr, cn, ru, etc.)
-icon: ⚛️ # the emoji used as the favicon (alternatively, provide image name in /assets/img/)
+icon: "" # the emoji used as the favicon (alternatively, provide image name in /assets/img/)
 
 url: https://ahmed-ha-elsayed.github.io # the base hostname & protocol for your site
 baseurl: "" # the subpath of your site, e.g. /blog/. Leave blank for root
@@ -88,8 +87,8 @@ navbar_fixed: true
 footer_fixed: true
 search_enabled: true
 socials_in_search: true
-posts_in_search: true
-bib_search: true
+posts_in_search: false
+bib_search: false
 
 # Dimensions
 max_width: 930px
@@ -130,10 +129,10 @@ lsi: false # produce an index for related posts
 
 # Pagination
 pagination:
-  enabled: true
+  enabled: false
 
 related_blog_posts:
-  enabled: true
+  enabled: false
   max_related: 5
 
 # Giscus comments (RECOMMENDED)
@@ -153,7 +152,7 @@ giscus:
   lang: en
 
 # Disqus comments (DEPRECATED)
-disqus_shortname: al-folio # put your disqus shortname
+disqus_shortname: "" # put your disqus shortname
 # https://help.disqus.com/en/articles/1717111-what-s-a-shortname
 
 # External sources.
@@ -222,11 +221,19 @@ exclude:
   - LICENSE
   - lighthouse_results/
   - assets/json/resume.json
+  - assets/json/resume.clean.json
   - assets/pdf/example_pdf.pdf
   - assets/rendercv/rendercv_output/Albert_Einstein_CV.pdf
   - package.json
   - package-lock.json
   - _books/
+  - _bibliography/papers.clean.bib
+  - _bibliography/papers.bib
+  - _data/citations.yml
+  - _data/coauthors.yml
+  - _data/cv.clean.yml
+  - _data/cv.yml
+  - _data/venues.yml
   - _pages/about_einstein.md
   - _pages/books.md
   - _pages/dropdown.md
@@ -691,20 +698,6 @@ third_party_libraries:
 # Get external JSON data
 # -----------------------------------------------------------------------------
 
-jekyll_get_json:
-  - data: resume
-    json: assets/json/resume.clean.json # it can also be an url
+jekyll_get_json: []
 
-jsonresume:
-  - basics
-  - work
-  - education
-  - publications
-  - projects
-  - volunteer
-  - awards
-  - certificates
-  - skills
-  - languages
-  - interests
-  - references
+jsonresume: []
