@@ -109,6 +109,10 @@ pagination:
       {% assign postlist = site.posts %}
     {% endif %}
 
+    {% if postlist.size == 0 %}
+      <p>Posts will appear here when they are published.</p>
+    {% endif %}
+
     {% for post in postlist %}
 
     {% if post.external_source == blank %}
