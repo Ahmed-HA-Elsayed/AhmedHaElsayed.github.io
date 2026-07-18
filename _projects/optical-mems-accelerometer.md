@@ -1,7 +1,8 @@
 ---
 layout: page
 title: Modelling and Characterization of Optical MEMS Accelerometer
-description: "Modelling and experimental characterization of a micromachining-compatible optical MEMS accelerometer."
+description: >-
+  This project studied a micromachining-compatible optical MEMS accelerometer based on displacement-sensitive optical readout. My work involved modelling and experimental characterization using an LED-QPD optical setup, mechanical vibration testing, microscope imaging, camera-based motion recording, and ImageJ-based displacement extraction.
 img: assets/img/MEMS.jpg
 importance: 3
 category: research
