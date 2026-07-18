@@ -242,7 +242,6 @@ exclude:
   - _pages/profiles.md
   - _pages/repositories.md
   - _posts/
-  - _projects/
   - _news/
   - _teachings/
   - purgecss.config.js
