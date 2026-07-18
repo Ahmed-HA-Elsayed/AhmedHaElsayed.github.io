@@ -64,7 +64,7 @@ I support undergraduate engineering and physics education through tutorials, lab
 
   .teaching-course-list {
     display: grid;
-    grid-template-columns: repeat(3, minmax(0, 1fr));
+    grid-template-columns: repeat(2, minmax(0, 1fr));
     margin: 0;
     padding: 0;
     border-top: 1px solid var(--global-divider-color);
@@ -89,10 +89,6 @@ I support undergraduate engineering and physics education through tutorials, lab
       margin-top: 0.4rem;
       white-space: normal;
     }
-
-    .teaching-course-list {
-      grid-template-columns: repeat(2, minmax(0, 1fr));
-    }
   }
 
   @media (max-width: 480px) {
@@ -116,15 +112,15 @@ I support undergraduate engineering and physics education through tutorials, lab
     </p>
     <h3 class="teaching-courses-title">Courses and laboratories</h3>
     <ul class="teaching-course-list">
-      <li>Electromagnetics</li>
+      <li>Digital Logic Design</li>
+      <li>Design and Analysis of Analog Integrated Circuits</li>
+      <li>Introduction to Optics</li>
       <li>Applied Electromagnetics</li>
-      <li>Quantum Computing</li>
-      <li>Antenna Theory</li>
-      <li>Semiconductors</li>
-      <li>Optics</li>
-      <li>Logic Design</li>
+      <li>Fundamentals of Electromagnetics</li>
+      <li>Introductory Quantum Computing</li>
       <li>Signals and Systems</li>
-      <li>Analog Integrated Circuits</li>
+      <li>Antenna and Propagation</li>
+      <li>Fundamentals of Semiconductors and Devices</li>
     </ul>
   </section>
 
@@ -141,9 +137,9 @@ I support undergraduate engineering and physics education through tutorials, lab
     </p>
     <h3 class="teaching-courses-title">Courses and laboratories</h3>
     <ul class="teaching-course-list">
-      <li>Photonics</li>
-      <li>Semiconductors</li>
-      <li>MEMS Design</li>
+      <li>Introduction to Photonics</li>
+      <li>Physics of Semiconductors</li>
+      <li>MEMS Design and Fabrication</li>
     </ul>
   </section>
 </div>
